@@ -1,9 +1,14 @@
 {
-  "name": "Lungo",
-  "description": "Micro #JavaScript Library for Mobile Devices",
+  "name": "lungo",
+  "description": "HTML5 Mobile Framework... and stuff.",
   "version": "2.0.0",
   "homepage": "http://lungo.tapquo.com",
-  "main": ["./release/lungo.js", "./release/lungo.css"],
+  "main": ["./lungo.js", "./lungo.css"],
   "keywords": [ "mobile" ],
-  "license": [{"type": "MIT"}]
+  "dependencies": {
+    "quojs": "~2.1.0"
+  },
+  "license": [{
+    "type": "GPLv3"
+  }]
 }
