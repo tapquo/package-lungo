@@ -1,0 +1,9 @@
+{
+  "name": "Lungo",
+  "description": "Micro #JavaScript Library for Mobile Devices",
+  "version": "2.0.0",
+  "homepage": "http://lungo.tapquo.com",
+  "main": ["./release/lungo.js", "./release/lungo.css"],
+  "keywords": [ "mobile" ],
+  "license": [{"type": "MIT"}]
+}
