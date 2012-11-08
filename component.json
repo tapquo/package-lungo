@@ -1,7 +1,7 @@
 {
   "name": "lungo",
-  "description": "HTML5 Mobile Framework... and stuff.",
-  "version": "2.0.0",
+  "description": "HTML5 Cross-Device Framework.",
+  "version": "2.0.1",
   "homepage": "http://lungo.tapquo.com",
   "main": ["./lungo.js", "./lungo.css"],
   "keywords": [ "mobile" ],

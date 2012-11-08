@@ -78,8 +78,11 @@ aside header {
 aside article {
   background: none;
 }
-aside nav .icon {
+aside nav a.current .icon {
   color: white;
+}
+aside nav a:not(.current) .icon {
+  color: #888888;
 }
 aside .list li {
   background: none;
@@ -249,6 +252,9 @@ select {
   -webkit-background-clip: padding-box;
   -moz-background-clip: padding;
   background-clip: padding-box;
+  -webkit-box-shadow: inset 0 1px 2px rgba(0,0,0,0.1);
+  -moz-box-shadow: inset 0 1px 2px rgba(0,0,0,0.1);
+  box-shadow: inset 0 1px 2px rgba(0,0,0,0.1);
   color: #858585;
   font-family: Helvetica, Arial, sans-serif;
   background: #fff;
@@ -302,7 +308,9 @@ input[type=range].checkbox.active {
 }
 input[type=range]::-webkit-slider-thumb {
   border-radius: 1px;
-  box-shadow: 0px 1px 2px 1px rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: 1px 0 rgba(0,0,0,0.2), -1px 0 rgba(0,0,0,0.2), 0 1px rgba(0,0,0,0.2), 0 -1px rgba(0,0,0,0.2);
+  -moz-box-shadow: 1px 0 rgba(0,0,0,0.2), -1px 0 rgba(0,0,0,0.2), 0 1px rgba(0,0,0,0.2), 0 -1px rgba(0,0,0,0.2);
+  box-shadow: 1px 0 rgba(0,0,0,0.2), -1px 0 rgba(0,0,0,0.2), 0 1px rgba(0,0,0,0.2), 0 -1px rgba(0,0,0,0.2);
   background: #fff;
 }
 input[type=range]::-webkit-slider-thumb::after {
